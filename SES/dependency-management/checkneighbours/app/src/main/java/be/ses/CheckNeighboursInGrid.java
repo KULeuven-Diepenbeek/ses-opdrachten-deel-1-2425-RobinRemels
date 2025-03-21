@@ -14,7 +14,7 @@ import java.util.List;
 import java.lang.Integer;
 
 public class CheckNeighboursInGrid {
-    public Iterable<Integer> getSameNeighboursIds(Iterable<Integer> grid,int width, int height, int indexToCheck){
+    public static Iterable<Integer> getSameNeighboursIds(Iterable<Integer> grid,int width, int height, int indexToCheck){
     // TODO write your code below so you return the correct result
         List<Integer> result = new ArrayList<>();
         List<Integer> gridList = new ArrayList<>();
