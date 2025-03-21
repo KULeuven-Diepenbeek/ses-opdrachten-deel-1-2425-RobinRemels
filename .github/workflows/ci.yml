@@ -22,8 +22,7 @@ jobs:
         distribution: 'adopt'  # Specify the distribution here
 
     # Stap 3: Installeren van Gradle (deze stap is optioneel als je al een Gradle wrapper hebt)
-    - name: Set up Gradle
-      uses: gradle/wrapper-validation-action@v1
+    
 
     # Stap 4: Gradle build uitvoeren (dit bouwt je project en voert de tests uit)
     - name: Build with Gradle
