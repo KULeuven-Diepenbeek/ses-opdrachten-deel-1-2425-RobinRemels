@@ -19,6 +19,7 @@ jobs:
       uses: actions/setup-java@v2
       with:
         java-version: '11'
+        distribution: 'adopt'  # Specify the distribution here
 
     # Stap 3: Installeren van Gradle (deze stap is optioneel als je al een Gradle wrapper hebt)
     - name: Set up Gradle
