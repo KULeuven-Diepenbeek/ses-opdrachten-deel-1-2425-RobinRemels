@@ -28,7 +28,9 @@ jobs:
     # Stap 4: Gradle build uitvoeren (dit bouwt je project en voert de tests uit)
     - name: Build with Gradle
       run: ./gradlew build
+      working-directory: ./dependency-management/checkneighbours
 
     # Stap 5: Voer de tests uit met Gradle
     - name: Run tests with Gradle
       run: ./gradlew test
+      working-directory: ./dependency-management/checkneighbours
