@@ -1,1 +1,1 @@
-[![Java CI with Gradle](https://github.com/KULeuven-Diepenbeek/ses-opdrachten-deel-1-2425-RobinRemels/actions/workflows/ci.yml/badge.svg)](https://github.com/KULeuven-Diepenbeek/ses-opdrachten-deel-1-2425-RobinRemels/actions/workflows/ci.yml)
+[![Java CI with Gradle](https://github.com/KULeuven-Diepenbeek/ses-opdrachten-deel-1-2425-RobinRemels/actions/workflows/gradle.yml/badge.svg)](https://github.com/KULeuven-Diepenbeek/ses-opdrachten-deel-1-2425-RobinRemels/actions/workflows/gradle.yml)
